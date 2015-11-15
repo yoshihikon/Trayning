@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C01B2F671BF3778C00B164D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F661BF3778C00B164D4 /* AppDelegate.swift */; };
+		C01B2F6B1BF3778C00B164D4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F6A1BF3778C00B164D4 /* SettingViewController.swift */; };
+		C01B2F6E1BF3778C00B164D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01B2F6C1BF3778C00B164D4 /* Main.storyboard */; };
+		C01B2F7B1BF3779C00B164D4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01B2F7A1BF3779C00B164D4 /* CoreBluetooth.framework */; };
+		C01B2FA71BF377AE00B164D4 /* CBPeripheral+Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F801BF377AD00B164D4 /* CBPeripheral+Konashi.m */; };
+		C01B2FA81BF377AE00B164D4 /* CBService+Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F821BF377AD00B164D4 /* CBService+Konashi.m */; };
+		C01B2FA91BF377AE00B164D4 /* CBUUID+Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F841BF377AD00B164D4 /* CBUUID+Konashi.m */; };
+		C01B2FAA1BF377AE00B164D4 /* KNSCentralManager+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F871BF377AD00B164D4 /* KNSCentralManager+UI.m */; };
+		C01B2FAB1BF377AE00B164D4 /* Konashi+ACDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F891BF377AD00B164D4 /* Konashi+ACDrive.m */; };
+		C01B2FAC1BF377AE00B164D4 /* Konashi+ADC.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F8B1BF377AD00B164D4 /* Konashi+ADC.m */; };
+		C01B2FAD1BF377AE00B164D4 /* Konashi+Grove.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F8D1BF377AD00B164D4 /* Konashi+Grove.m */; };
+		C01B2FAE1BF377AE00B164D4 /* Konashi+JavaScriptBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F8F1BF377AD00B164D4 /* Konashi+JavaScriptBindings.m */; };
+		C01B2FAF1BF377AE00B164D4 /* KNSKonashiPeripheralImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F951BF377AD00B164D4 /* KNSKonashiPeripheralImpl.m */; };
+		C01B2FB01BF377AE00B164D4 /* KNSKoshianPeripheralImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F971BF377AD00B164D4 /* KNSKoshianPeripheralImpl.m */; };
+		C01B2FB11BF377AE00B164D4 /* KNSPeripheralBaseImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F991BF377AD00B164D4 /* KNSPeripheralBaseImpl.m */; };
+		C01B2FB21BF377AE00B164D4 /* KNSCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F9D1BF377AD00B164D4 /* KNSCentralManager.m */; };
+		C01B2FB31BF377AE00B164D4 /* KNSHandlerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2F9F1BF377AD00B164D4 /* KNSHandlerManager.m */; };
+		C01B2FB41BF377AE00B164D4 /* KNSPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2FA11BF377AD00B164D4 /* KNSPeripheral.m */; };
+		C01B2FB51BF377AE00B164D4 /* Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2FA41BF377AD00B164D4 /* Konashi.m */; };
+		C01B2FB61BF377AE00B164D4 /* KonashiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B2FA61BF377AD00B164D4 /* KonashiUtils.m */; };
+		C0CD81A61BF8D0C5009753C1 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CD81A51BF8D0C5009753C1 /* Launch.storyboard */; };
+		C0F02AB51BF71972002A957B /* TrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F02AB41BF71972002A957B /* TrayViewController.swift */; };
+		C0F02AB71BF81333002A957B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F02AB61BF81333002A957B /* Assets.xcassets */; };
+		C0F02AB91BF85853002A957B /* TrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F02AB81BF85853002A957B /* TrayController.swift */; };
+		C0F02ABB1BF8B6CD002A957B /* LightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F02ABA1BF8B6CD002A957B /* LightView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C01B2F631BF3778C00B164D4 /* Trayning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trayning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01B2F661BF3778C00B164D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C01B2F6A1BF3778C00B164D4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		C01B2F6D1BF3778C00B164D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C01B2F741BF3778C00B164D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01B2F7A1BF3779C00B164D4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		C01B2F7F1BF377AD00B164D4 /* CBPeripheral+Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+Konashi.h"; sourceTree = "<group>"; };
+		C01B2F801BF377AD00B164D4 /* CBPeripheral+Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+Konashi.m"; sourceTree = "<group>"; };
+		C01B2F811BF377AD00B164D4 /* CBService+Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBService+Konashi.h"; sourceTree = "<group>"; };
+		C01B2F821BF377AD00B164D4 /* CBService+Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBService+Konashi.m"; sourceTree = "<group>"; };
+		C01B2F831BF377AD00B164D4 /* CBUUID+Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBUUID+Konashi.h"; sourceTree = "<group>"; };
+		C01B2F841BF377AD00B164D4 /* CBUUID+Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+Konashi.m"; sourceTree = "<group>"; };
+		C01B2F861BF377AD00B164D4 /* KNSCentralManager+UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KNSCentralManager+UI.h"; sourceTree = "<group>"; };
+		C01B2F871BF377AD00B164D4 /* KNSCentralManager+UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KNSCentralManager+UI.m"; sourceTree = "<group>"; };
+		C01B2F881BF377AD00B164D4 /* Konashi+ACDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Konashi+ACDrive.h"; sourceTree = "<group>"; };
+		C01B2F891BF377AD00B164D4 /* Konashi+ACDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Konashi+ACDrive.m"; sourceTree = "<group>"; };
+		C01B2F8A1BF377AD00B164D4 /* Konashi+ADC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Konashi+ADC.h"; sourceTree = "<group>"; };
+		C01B2F8B1BF377AD00B164D4 /* Konashi+ADC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Konashi+ADC.m"; sourceTree = "<group>"; };
+		C01B2F8C1BF377AD00B164D4 /* Konashi+Grove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Konashi+Grove.h"; sourceTree = "<group>"; };
+		C01B2F8D1BF377AD00B164D4 /* Konashi+Grove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Konashi+Grove.m"; sourceTree = "<group>"; };
+		C01B2F8E1BF377AD00B164D4 /* Konashi+JavaScriptBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Konashi+JavaScriptBindings.h"; sourceTree = "<group>"; };
+		C01B2F8F1BF377AD00B164D4 /* Konashi+JavaScriptBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Konashi+JavaScriptBindings.m"; sourceTree = "<group>"; };
+		C01B2F901BF377AD00B164D4 /* KonashiJavaScriptBindingsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KonashiJavaScriptBindingsProtocol.h; sourceTree = "<group>"; };
+		C01B2F921BF377AD00B164D4 /* KonashiConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KonashiConstant.h; sourceTree = "<group>"; };
+		C01B2F941BF377AD00B164D4 /* KNSKonashiPeripheralImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSKonashiPeripheralImpl.h; sourceTree = "<group>"; };
+		C01B2F951BF377AD00B164D4 /* KNSKonashiPeripheralImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSKonashiPeripheralImpl.m; sourceTree = "<group>"; };
+		C01B2F961BF377AD00B164D4 /* KNSKoshianPeripheralImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSKoshianPeripheralImpl.h; sourceTree = "<group>"; };
+		C01B2F971BF377AD00B164D4 /* KNSKoshianPeripheralImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSKoshianPeripheralImpl.m; sourceTree = "<group>"; };
+		C01B2F981BF377AD00B164D4 /* KNSPeripheralBaseImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSPeripheralBaseImpl.h; sourceTree = "<group>"; };
+		C01B2F991BF377AD00B164D4 /* KNSPeripheralBaseImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSPeripheralBaseImpl.m; sourceTree = "<group>"; };
+		C01B2F9A1BF377AD00B164D4 /* KNSPeripheralImplProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSPeripheralImplProtocol.h; sourceTree = "<group>"; };
+		C01B2F9B1BF377AD00B164D4 /* KNSPeripheralImpls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSPeripheralImpls.h; sourceTree = "<group>"; };
+		C01B2F9C1BF377AD00B164D4 /* KNSCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSCentralManager.h; sourceTree = "<group>"; };
+		C01B2F9D1BF377AD00B164D4 /* KNSCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSCentralManager.m; sourceTree = "<group>"; };
+		C01B2F9E1BF377AD00B164D4 /* KNSHandlerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSHandlerManager.h; sourceTree = "<group>"; };
+		C01B2F9F1BF377AD00B164D4 /* KNSHandlerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSHandlerManager.m; sourceTree = "<group>"; };
+		C01B2FA01BF377AD00B164D4 /* KNSPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSPeripheral.h; sourceTree = "<group>"; };
+		C01B2FA11BF377AD00B164D4 /* KNSPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSPeripheral.m; sourceTree = "<group>"; };
+		C01B2FA21BF377AD00B164D4 /* Konashi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Konashi-Prefix.pch"; sourceTree = "<group>"; };
+		C01B2FA31BF377AD00B164D4 /* Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Konashi.h; sourceTree = "<group>"; };
+		C01B2FA41BF377AD00B164D4 /* Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi.m; sourceTree = "<group>"; };
+		C01B2FA51BF377AD00B164D4 /* KonashiUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KonashiUtils.h; sourceTree = "<group>"; };
+		C01B2FA61BF377AD00B164D4 /* KonashiUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KonashiUtils.m; sourceTree = "<group>"; };
+		C01B2FB71BF377C300B164D4 /* Trayning-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trayning-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0CD81A51BF8D0C5009753C1 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		C0F02AB41BF71972002A957B /* TrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrayViewController.swift; sourceTree = "<group>"; };
+		C0F02AB61BF81333002A957B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0F02AB81BF85853002A957B /* TrayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrayController.swift; sourceTree = "<group>"; };
+		C0F02ABA1BF8B6CD002A957B /* LightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C01B2F601BF3778C00B164D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01B2F7B1BF3779C00B164D4 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C01B2F5A1BF3778C00B164D4 = {
+			isa = PBXGroup;
+			children = (
+				C01B2F651BF3778C00B164D4 /* Trayning */,
+				C01B2F7A1BF3779C00B164D4 /* CoreBluetooth.framework */,
+				C01B2F641BF3778C00B164D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C01B2F641BF3778C00B164D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01B2F631BF3778C00B164D4 /* Trayning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C01B2F651BF3778C00B164D4 /* Trayning */ = {
+			isa = PBXGroup;
+			children = (
+				C01B2F661BF3778C00B164D4 /* AppDelegate.swift */,
+				C0F02AB81BF85853002A957B /* TrayController.swift */,
+				C0F02AB41BF71972002A957B /* TrayViewController.swift */,
+				C0F02ABA1BF8B6CD002A957B /* LightView.swift */,
+				C01B2F6A1BF3778C00B164D4 /* SettingViewController.swift */,
+				C01B2F6C1BF3778C00B164D4 /* Main.storyboard */,
+				C0CD81A51BF8D0C5009753C1 /* Launch.storyboard */,
+				C0F02AB61BF81333002A957B /* Assets.xcassets */,
+				C01B2F741BF3778C00B164D4 /* Info.plist */,
+				C01B2FB71BF377C300B164D4 /* Trayning-Bridging-Header.h */,
+				C01B2F7C1BF377AD00B164D4 /* Konashi */,
+			);
+			path = Trayning;
+			sourceTree = "<group>";
+		};
+		C01B2F7C1BF377AD00B164D4 /* Konashi */ = {
+			isa = PBXGroup;
+			children = (
+				C01B2F7D1BF377AD00B164D4 /* Category */,
+				C01B2F911BF377AD00B164D4 /* Constant */,
+				C01B2F931BF377AD00B164D4 /* Impl */,
+				C01B2F9C1BF377AD00B164D4 /* KNSCentralManager.h */,
+				C01B2F9D1BF377AD00B164D4 /* KNSCentralManager.m */,
+				C01B2F9E1BF377AD00B164D4 /* KNSHandlerManager.h */,
+				C01B2F9F1BF377AD00B164D4 /* KNSHandlerManager.m */,
+				C01B2FA01BF377AD00B164D4 /* KNSPeripheral.h */,
+				C01B2FA11BF377AD00B164D4 /* KNSPeripheral.m */,
+				C01B2FA21BF377AD00B164D4 /* Konashi-Prefix.pch */,
+				C01B2FA31BF377AD00B164D4 /* Konashi.h */,
+				C01B2FA41BF377AD00B164D4 /* Konashi.m */,
+				C01B2FA51BF377AD00B164D4 /* KonashiUtils.h */,
+				C01B2FA61BF377AD00B164D4 /* KonashiUtils.m */,
+			);
+			path = Konashi;
+			sourceTree = "<group>";
+		};
+		C01B2F7D1BF377AD00B164D4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C01B2F7E1BF377AD00B164D4 /* CoreBluetooth */,
+				C01B2F851BF377AD00B164D4 /* Konashi */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C01B2F7E1BF377AD00B164D4 /* CoreBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				C01B2F7F1BF377AD00B164D4 /* CBPeripheral+Konashi.h */,
+				C01B2F801BF377AD00B164D4 /* CBPeripheral+Konashi.m */,
+				C01B2F811BF377AD00B164D4 /* CBService+Konashi.h */,
+				C01B2F821BF377AD00B164D4 /* CBService+Konashi.m */,
+				C01B2F831BF377AD00B164D4 /* CBUUID+Konashi.h */,
+				C01B2F841BF377AD00B164D4 /* CBUUID+Konashi.m */,
+			);
+			path = CoreBluetooth;
+			sourceTree = "<group>";
+		};
+		C01B2F851BF377AD00B164D4 /* Konashi */ = {
+			isa = PBXGroup;
+			children = (
+				C01B2F861BF377AD00B164D4 /* KNSCentralManager+UI.h */,
+				C01B2F871BF377AD00B164D4 /* KNSCentralManager+UI.m */,
+				C01B2F881BF377AD00B164D4 /* Konashi+ACDrive.h */,
+				C01B2F891BF377AD00B164D4 /* Konashi+ACDrive.m */,
+				C01B2F8A1BF377AD00B164D4 /* Konashi+ADC.h */,
+				C01B2F8B1BF377AD00B164D4 /* Konashi+ADC.m */,
+				C01B2F8C1BF377AD00B164D4 /* Konashi+Grove.h */,
+				C01B2F8D1BF377AD00B164D4 /* Konashi+Grove.m */,
+				C01B2F8E1BF377AD00B164D4 /* Konashi+JavaScriptBindings.h */,
+				C01B2F8F1BF377AD00B164D4 /* Konashi+JavaScriptBindings.m */,
+				C01B2F901BF377AD00B164D4 /* KonashiJavaScriptBindingsProtocol.h */,
+			);
+			path = Konashi;
+			sourceTree = "<group>";
+		};
+		C01B2F911BF377AD00B164D4 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				C01B2F921BF377AD00B164D4 /* KonashiConstant.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		C01B2F931BF377AD00B164D4 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				C01B2F941BF377AD00B164D4 /* KNSKonashiPeripheralImpl.h */,
+				C01B2F951BF377AD00B164D4 /* KNSKonashiPeripheralImpl.m */,
+				C01B2F961BF377AD00B164D4 /* KNSKoshianPeripheralImpl.h */,
+				C01B2F971BF377AD00B164D4 /* KNSKoshianPeripheralImpl.m */,
+				C01B2F981BF377AD00B164D4 /* KNSPeripheralBaseImpl.h */,
+				C01B2F991BF377AD00B164D4 /* KNSPeripheralBaseImpl.m */,
+				C01B2F9A1BF377AD00B164D4 /* KNSPeripheralImplProtocol.h */,
+				C01B2F9B1BF377AD00B164D4 /* KNSPeripheralImpls.h */,
+			);
+			path = Impl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C01B2F621BF3778C00B164D4 /* Trayning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01B2F771BF3778C00B164D4 /* Build configuration list for PBXNativeTarget "Trayning" */;
+			buildPhases = (
+				C01B2F5F1BF3778C00B164D4 /* Sources */,
+				C01B2F601BF3778C00B164D4 /* Frameworks */,
+				C01B2F611BF3778C00B164D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trayning;
+			productName = Trayning;
+			productReference = C01B2F631BF3778C00B164D4 /* Trayning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C01B2F5B1BF3778C00B164D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = goodmix;
+				TargetAttributes = {
+					C01B2F621BF3778C00B164D4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = C01B2F5E1BF3778C00B164D4 /* Build configuration list for PBXProject "Trayning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C01B2F5A1BF3778C00B164D4;
+			productRefGroup = C01B2F641BF3778C00B164D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C01B2F621BF3778C00B164D4 /* Trayning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01B2F611BF3778C00B164D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F02AB71BF81333002A957B /* Assets.xcassets in Resources */,
+				C01B2F6E1BF3778C00B164D4 /* Main.storyboard in Resources */,
+				C0CD81A61BF8D0C5009753C1 /* Launch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C01B2F5F1BF3778C00B164D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01B2F6B1BF3778C00B164D4 /* SettingViewController.swift in Sources */,
+				C01B2F671BF3778C00B164D4 /* AppDelegate.swift in Sources */,
+				C01B2FB41BF377AE00B164D4 /* KNSPeripheral.m in Sources */,
+				C0F02AB91BF85853002A957B /* TrayController.swift in Sources */,
+				C01B2FB21BF377AE00B164D4 /* KNSCentralManager.m in Sources */,
+				C01B2FB31BF377AE00B164D4 /* KNSHandlerManager.m in Sources */,
+				C01B2FAE1BF377AE00B164D4 /* Konashi+JavaScriptBindings.m in Sources */,
+				C01B2FAB1BF377AE00B164D4 /* Konashi+ACDrive.m in Sources */,
+				C01B2FAF1BF377AE00B164D4 /* KNSKonashiPeripheralImpl.m in Sources */,
+				C01B2FB11BF377AE00B164D4 /* KNSPeripheralBaseImpl.m in Sources */,
+				C01B2FA71BF377AE00B164D4 /* CBPeripheral+Konashi.m in Sources */,
+				C01B2FA81BF377AE00B164D4 /* CBService+Konashi.m in Sources */,
+				C01B2FB51BF377AE00B164D4 /* Konashi.m in Sources */,
+				C0F02AB51BF71972002A957B /* TrayViewController.swift in Sources */,
+				C01B2FAA1BF377AE00B164D4 /* KNSCentralManager+UI.m in Sources */,
+				C01B2FAD1BF377AE00B164D4 /* Konashi+Grove.m in Sources */,
+				C01B2FAC1BF377AE00B164D4 /* Konashi+ADC.m in Sources */,
+				C01B2FB01BF377AE00B164D4 /* KNSKoshianPeripheralImpl.m in Sources */,
+				C01B2FB61BF377AE00B164D4 /* KonashiUtils.m in Sources */,
+				C0F02ABB1BF8B6CD002A957B /* LightView.swift in Sources */,
+				C01B2FA91BF377AE00B164D4 /* CBUUID+Konashi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C01B2F6C1BF3778C00B164D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01B2F6D1BF3778C00B164D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01B2F751BF3778C00B164D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C01B2F761BF3778C00B164D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01B2F781BF3778C00B164D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Trayning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.goodmix.Trayning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trayning/Trayning-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		C01B2F791BF3778C00B164D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Trayning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.goodmix.Trayning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trayning/Trayning-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01B2F5E1BF3778C00B164D4 /* Build configuration list for PBXProject "Trayning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01B2F751BF3778C00B164D4 /* Debug */,
+				C01B2F761BF3778C00B164D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01B2F771BF3778C00B164D4 /* Build configuration list for PBXNativeTarget "Trayning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01B2F781BF3778C00B164D4 /* Debug */,
+				C01B2F791BF3778C00B164D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C01B2F5B1BF3778C00B164D4 /* Project object */;
+}
